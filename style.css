@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200&display=swap');
+
+*{
+    font-family: cursive;
+}
+
+.back-cover{
+    background-color: rgba(1, 0, 8, 0.884);
+    color: white;
+    height: 100vh;
+    width: 100%;
+}
+
+.star-icon{
+    width: fit-content;
+    background-color: rgb(31,30,37);
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.card-container{
+    height: 280px;
+    width: 280px;
+    margin: auto;
+    padding: 16px;
+    border-radius: 25px;
+    background-color: rgb(32,39,49);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.title-desc{
+    margin: 0;
+    padding: 0;
+}
+
+.title-desc h2{
+    margin-top: 3px;
+}
+
+.title-desc p{
+    font-size: small;
+    color: #a6aaaf;
+    font-family: "Heebo", "cursive";
+    font-weight: 800;
+}
+
+.rate-btns{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.number{
+    border: none;
+    border-radius: 50%;
+    background-color: #262f38;
+    padding: 12px;
+    margin:10px;
+    color: white;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+}
+
+.number:hover{
+    background-color: gray;
+}
+
+.number:focus{
+    background-color: rgb(252,118,19);
+    color: white;
+}
+
+.submit-btn{
+    /* border: 1px solid white; */
+    margin-top: 12px;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    border: none;
+}
+.submit-btn button{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(252,118,19);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 12px;
+    border: none;
+}
+
+.submit-btn button:hover{
+    background-color: rgb(248, 103, 0)
+}
+
+.container-thanks{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.thanks2{
+    border: 1px solid red;
+    margin: 0;
+    padding: 0;
+}
+
+.apprec{
+    margin: 0;
+    padding: 0;
+    font-size: smaller;
+}
+
